@@ -1,10 +1,10 @@
 /*CMD
-  command: /onr
+  command: /sazg
   help: 
-  need_reply: true
+  need_reply: 
   auto_retry_time: 
   folder: 
-  answer: Input text
+  answer: 
   keyboard: 
   aliases: 
 CMD*/
