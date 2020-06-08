@@ -12,11 +12,17 @@ CMD*/
 let user = options.result.status
 
 if (user == "member" || user == "creator") {
-  Bot.sendMessage("ቻነሉን ተቀላቅለዋል አሁን ቦቱን መጠቀም ይችላሉ😊")
-  Bot.runCommand("/menu")
+  Api.answerCallbackQuery({
+  callback_query_id: request.id,
+  text:"ቻነሉን ተቀላቅለዋል አሁን ቦቱን መጠቀም ይችላሉ😊",
+  show_alert: " top" })
+  
+Bot.runCommand("/menu")
 } else {
-  Bot.sendMessage("!! 😔ቻነሉን አልተቀላቀሉም በድጋሚ ይሞክሩ !!")
-  Bot.runCommand("/start")
-}
+  Api.answerCallbackQuery({
+  callback_query_id: request.id,
+  text:"⚠️ቻነሉን አልተቀላቀሉም በድጋሚ ይሞክሩ‼️",
+  show_alert: "top"
+})}
 
 Bot.setProperty("status", user, "text")
