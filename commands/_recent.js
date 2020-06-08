@@ -10,7 +10,7 @@
 CMD*/
 
 let admin_text =
-  "<b>S.From:</b> \n" +
+  "<b>S.From: "+ user.telegramid + " </b> \n" +
   '<a href="' +
   "tg://user?id=" +
   user.telegramid +
@@ -21,7 +21,8 @@ let admin_text =
   message +
   " </code>"
 
-let ADMIN = "@xexgbjnsjnjudxbjjdxsam"
+let ADMIN = "@xexgbjnsjnjudxbjjdxSam"
+
 
   Api.sendMessage({
     chat_id: ADMIN,

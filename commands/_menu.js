@@ -9,18 +9,29 @@
   aliases: 
 CMD*/
 
-var b =[
-[{ title: "🔐ቤ/ክ ለምን ካቶሊካዊት እንላለን?", command: "/catho" }],
-   [ { title: "🔐ቤ/ክ ለምን ሮማዊት እንላለን?", command: "/rome" }],
-[{ title: "🔐ቤ/ክ ለምን ሐዋርያዊት እንላለን?", command: "/piter" }],
-[{ title: "🔐ቤ/ክ ለምን አንዲት እንላለን?", command: "/one" }],
-[{ title: "🔐ቤ/ክ ለምን ቅድስት እንላለን?", command: "/kid" }],
-[{ title: "🔐በስእለ አድኖ ያለን አቋም", command: "/pic" }],
-[{ title: "🔐ር.ሊ.ጳጳሳት የጴጥሮስ ተተኪ ናቸው", command: "/teteki" }],
-[{ title: "🔐ፓፓ ማለት ምን ማለት ነው", command: "/papa" }],
-[{ title: "🔐ፓፓ አይሳሳቱም", command: "/pop" }],
-[{ title: "🔐ር.ሊ.ጳጳሳት እንዴት ነው የሚመረጡት?", command: "/cardinal" }],
-    [{ title: "🔐አብያተ ክርስቲያናት ከካቶሊክ መቼ ተለዩ", command: "/split"}],
-[{title:"⏭ወደ ቀጣይ ገፅ⏮",command:"/next"}]]
+let msg=User.getProperty("msgid")
 
-Bot.sendInlineKeyboard(b,  user.first_name+" እንኳን ወደዚህ ቦት በደህና መጡ፡፡ በዚህ ቦት ስለ ካቶሊክ እምነት በሚገባ ያውቁበታል፡፡ ከታች ያለውን button ይጠቀሙ",{on_result:"/msgid"})
+var b =[
+[{ title: "🏠የካቶሊክ ቤተክርስቲያን ምንነት", command: "/first" }],
+[{ title:"🇪🇹የትግርኛ ገፅ🇪🇹", command:"/tigray"}],
+[ { title: "💒የቤ/ክ አስተምህሮ", command: "/thalk" },{title:"⚠️COVID ፕሮግራሞች",command:"/covid"}],
+[{title:"📜የቅዱሳን ታሪክ📜",command:"/kidus"},{title:"🙀የቮካል ስልጠና",command:"/vocal"}],
+[{title:"🗞ግፃዌ",command:"/gex"},{title:"🔅ግዕዝ ዜማ",command:"/geez"}],
+[{title:"✝ጸሎት",command:"/xelo"},{title:"🎬ሲኒማ",command:"/catcin"}],
+[{title:"📚PDF መፅሀፍት",command:"/cpdf"},{title:"📡የቫቲካን ራዲዮ",command:"/cvati"}],
+[{title:"🛡Application",command:"/capps"},{title:"🕎የቅዳሴ ስርአት",command:"/kidse"}],
+[{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
+[{title:"🎹keyboard",command:"/kibstl"},{title:"🇻🇦ፓፓ ፍራንሲስ",command:"/popfran"}],
+[{title:"😇ፆታዊ ቅድስና",command:"/theolo"},{title:"🎧መዝሙሮች",command:"/mzmu"}],
+[{ title: "👤አስተያየት ለመስጠት", command: "/admin" }]]
+
+var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
+
+if(params=="M") 
+{
+Bot.editMessage(th+"  እንኳን ወደዚህ ቦት በደህና መጡ፡፡ በዚህ ቦት ብዙ መረጃ ማግኘት ይችላሉ፡፡ ከታች ያለውን button ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
+}else{
+Bot.sendInlineKeyboard(b,  th+" እንኳን ወደዚህ ቦት በደህና መጡ፡፡ በዚህ ቦት ብዙ መረጃ ማግኘት ይችላሉ፡፡ ከታች ያለውን button ይጠቀሙ",{on_result:"/msgid"})
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
