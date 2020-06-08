@@ -12,7 +12,6 @@
   aliases: 
 CMD*/
 
-
 Bot.sendInlineKeyboard(
   [
   { title: "↪️ወደ ዋና ገፅ↩️", command: "/start"}], 
