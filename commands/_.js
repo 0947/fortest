@@ -20,3 +20,7 @@ Bot.sendInlineKeyboard(
 let admin_text ="<b>S.From:</b> \n" +'<a href="' +"tg://user?id=" + user.telegramid +'">' + user.first_name + "</a>" +" \nText: <code>" + message + " </code>"
 let ADMIN = "@xexgbjnsjnjudxbjjdxSam"
   Api.sendMessage({ chat_id: ADMIN, text: admin_text, parse_mode: "html"})
+
+let msg=User.getProperty("msgid")
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
