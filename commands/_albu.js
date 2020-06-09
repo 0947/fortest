@@ -26,10 +26,9 @@ var b=[
 [{title:"ዘ.ኤደን #2",command:"/edi2"},{title:"ቀበና #4", command :"/kbna4"}],
 [{title:"ሀዋሳ ኪ.ም",command:"/hawwa"},{title:"አሰላ ል.ማ", command :"/assla"}],
 [{title:"ዘ.ዘውዱ ታደሰ",command:"/zwdu"},{title:"ዘ.ህይወት", command :"/zmhy"}],
-[{title:"አድዋ ረ.ማ",command:"/adwar"},{title:"ቅ.ማርያም", command :"/kdmr"}],
+[{title:"ቅ.ገብርኤል #4",command:"/kbr4"},{title:"ቅ.ማርያም", command :"/kdmr"}],
 [{title:"አባ ኤፍሬም #2",command:"/efram"},{title:"ዘ.ብርቱካን", command :"/brtuk"}],
 [{title:"ደብረዘይት #2",command:"/dbrz"},{title:"ሆሳእና ቅ.ስ", command :"/hasan"}],
-[{title:"ቅዱስ ገብርኤል #4", command :"/kbr4"}],
 [{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/menu"}]]
 
 Bot.editMessage("በዚህ ገፅ የካቶሊካዊት ቤተክርስቲያን መዝሙሮች በአልበም ተቀምጠዋል፡፡ ከታች ያሉትን በተኖች ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
