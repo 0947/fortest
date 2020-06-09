@@ -16,4 +16,4 @@ var b =[
 [{title:"ተመለስ",command:"/menu M"}],
 ]
 
-Bot.editMessage(user.first_name+" ከታች በገጽ ደተቀመጡትን የ pdf መፅሀፍት ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage(user.first_name+" ከታች በገጽ የተቀመጡትን የ pdf መፅሀፍት ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
