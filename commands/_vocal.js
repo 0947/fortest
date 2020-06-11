@@ -16,7 +16,7 @@ var b =[
 [{title:"🗣የቮካል ሊንኮች🗣",command:"/vlin"},{title:"🗣የቮካል Video",command:"/vvid"}],
 [{title:"🗣ቮካል በፎቶ🗣",command:"/vopic"},{title:"🗣Vocal Teacher🗣",command:"/ptv"}],
 [{title:"🗣የጥሩ ቮካል ውጤቶች ምሳሌ🗣",command:"/pvoc"}],
-[{title:"👀ወደ ዋናው ገጽ ለመመለስ👀 ",command:"/menu M"}],
+[{title:"👀ወደ ዋናው ገጽ ለመመለስ👀 ",command:"/mych"}],
 ]
 
 Bot.editMessage(user.first_name+" በዚህ button የቮካል ስልጠናዎች በዘማሪ ራዕይ ሳሙኤል ያገኛሉ መልካም ጊዜ",msg)&Bot.editInlineKeyboard(b,msg)

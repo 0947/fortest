@@ -15,6 +15,6 @@ var b =[
 [{title:"📀አልበሞች📀",command:"/albu"}],
 [{title:"🎥የቪዲዮ",command:"/mzvi"},{title:"📜በጽሁፍ",command:"/mztxt"}],
 [{title:"🔍የቆዩ መዝሙሮች",command:"/ykuaud"}],
-[{title:"✅ተመለስ",command:"/menu M"}]]
+[{title:"✅ተመለስ",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" ይህ የመዝሙር ገፅ ነው፡፡ ከዚህ በታች በሚፈልጉት መልኩ ተሰናድተዋል፡፡ በተኖቹን ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
