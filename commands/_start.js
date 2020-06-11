@@ -17,3 +17,5 @@ var buttons = [
 Bot.sendInlineKeyboard(buttons, "🤖*ይህንን ቦት ለመጠቀም በቅድሚያ ከታች ያለውን ቻነል ይቀላቀሉ*",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
