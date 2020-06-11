@@ -16,6 +16,6 @@ var b=[
 [{title:"ወካዕማ",command:"/wkama"},{title:"አባ መዓዛ", command :"/abmaz"}],
 [{title:"ልደታ ማርያም",command:"/ldiy"},{title:"ኮንሶላታ", command :"/consol"}],
 [{title:"ቀርሜሎስ #1",command:"/kereme"}], 
-[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/menu"}]]
+[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/mych"}]]
 
 Bot.editMessage("በዚህ ገፅ የቆዩ መዝሙሮችን ያገኛሉ፡፡ ከታች ያሉትን በተኖች ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)

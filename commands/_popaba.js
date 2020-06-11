@@ -20,6 +20,6 @@ var b =[
 [{title:"ልብ",command:"/pklb"},{title:"ፍቅር ሲገለጥ",command:"/pfkl"}],
 [{title:"ፍቅር በ%",command:"/fkpr"},{title:"ድምፅ",command:"/fdx"}],
 [{title:"ፈገግታ",command:"/ffg"}],
-[{title:"✅ተመለስ",command:"/popfran"},{title:"⬆️ዋና ገጽ",command:"/menu"}]]
+[{title:"✅ተመለስ",command:"/popfran"},{title:"⬆️ዋና ገጽ",command:"/mych"}]]
 
 Bot.editMessage("በዚህ button የፓፓ ፍራንሲስ አባባሎች ያገኛሉ፡፡ ርዕሶችን ቀመምረጥ ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)

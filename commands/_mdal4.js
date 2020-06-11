@@ -53,5 +53,5 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/1092"})
 
 var b=[
-[{title:" ተመለስ ", command :"/menu"}]]
+[{title:" ተመለስ ", command :"/mych"}]]
 Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")

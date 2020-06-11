@@ -14,10 +14,10 @@ let user = options.result.status
 if (user == "member" || user == "creator") {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"ቻነሉን ተቀላቅለዋል አሁን ቦቱን መጠቀም ይችላሉ😊",
+  text:"✅Data Updating.....",
   show_alert: " top" })
   
-Bot.runCommand("/menu")
+Bot.runCommand("/myme")
 } else {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
