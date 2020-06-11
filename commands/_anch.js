@@ -43,7 +43,7 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxsam/483",caption:  "🗣 አንቺ ሆዬ"})
 
 
-var b = [[{ text: "ተመለስ", callback_data: "/menu"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,
