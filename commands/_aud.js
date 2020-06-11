@@ -16,7 +16,7 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/39",caption:  "ቅዱሳን እነማን ናቸው?\n\nኢየሱስ አማላጅ ነው ወይስ ምልጃ ተቀባይ\nበክቡር አባ ምስራቅ ጥዩ (ዶ/ር)"})
 
 
-var b = [[{ text: "ተመለስ", callback_data: "/menu"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,

@@ -11,7 +11,7 @@ CMD*/
 
 let msg=User.getProperty("msgid")
 
-var b = [[{ text: "⬆️ዋና ገፅ", callback_data: "/menu"}]]
+var b = [[{ text: "⬆️ዋና ገፅ", callback_data: "/mych"}]]
 
  Api.sendPhoto({
   chat_id: chat.chatid,

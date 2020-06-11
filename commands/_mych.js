@@ -1,5 +1,5 @@
 /*CMD
-  command: /oncheckmem1
+  command: /mych
   help: 
   need_reply: 
   auto_retry_time: 
