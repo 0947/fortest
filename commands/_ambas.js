@@ -27,7 +27,7 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxsam/467",caption:  "🗣አምባሰል"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/menu"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,

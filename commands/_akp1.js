@@ -40,7 +40,7 @@ Api.sendPhoto({
   photo: "https://t.me/xexgbjnsjnjudxbjjdxSam/767"})
 
 
-var b = [[{ text: "ተመለስ", callback_data: "/menu"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendPhoto({
   chat_id: chat.chatid,

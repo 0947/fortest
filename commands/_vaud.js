@@ -17,6 +17,6 @@ var b =[
 [{title:"የድምፅ ቲምበር",command:"/timber"},{title:"ክሮማቲክ ቅኝት",command:"/crom"}],
 [{title:"አምባሰል",command:"/ambas"},{title:"የምምፅ ቴክኒኮች",command:"/vtec"}],
 [{title:"ትዝታ Minor",command:"/tmin"}],
-[{title:"⏮ለመመለስ",command:"/vocal"},{title:"🔼ዋና ገጽ",command:"/menu"}]]
+[{title:"⏮ለመመለስ",command:"/vocal"},{title:"🔼ዋና ገጽ",command:"/mych"}]]
 
 Bot.editMessage("ይህ የድምፅ vocal ገፅ ነው ከታች ያሉትን በተን በመጠቀም የአገልግሎቱ ተካፋይ ይሁኑ",msg)&Bot.editInlineKeyboard(b,msg)

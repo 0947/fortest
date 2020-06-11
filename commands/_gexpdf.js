@@ -12,7 +12,7 @@ CMD*/
 
 let msg=User.getProperty("msgid")
 
-var b = [[{ text: "ወደ ዋና ገጽ", callback_data: "/menu"}]]
+var b = [[{ text: "ወደ ዋና ገጽ", callback_data: "/mych"}]]
 
  Api.sendDocument({
   chat_id: chat.chatid,

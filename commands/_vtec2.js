@@ -27,7 +27,7 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxsam/512",caption:  "የድምፅ ቴክኒኮች"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/menu"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,

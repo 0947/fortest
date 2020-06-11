@@ -12,7 +12,7 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"#⃣ዋና ገፅ ",command:"/menu M"},{title:"▶️ቀጣይ ገፅ",command 
+[{title:"#⃣ዋና ገፅ ",command:"/mych"},{title:"▶️ቀጣይ ገፅ",command 
 :"/jana2"}]
 ]
 
