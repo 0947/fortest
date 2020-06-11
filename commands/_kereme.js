@@ -54,8 +54,7 @@ Api.sendDocument({
 
 var b=[
 [{title:" ተመለስ ", command :"/menu"}]]
-Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")
-Api.sendDocument({
+Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/1585"})
 Api.sendDocument({
@@ -99,5 +98,5 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/1598"})
 
 var b=[
-[{title:" ተመለስ ", command :"/menu"}]]
+[{title:" ተመለስ ", command :"/mych"}]]
 Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")

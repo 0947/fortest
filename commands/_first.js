@@ -19,6 +19,6 @@ var b =[
 [{ title: "ፓፓ አይሳሳቱም", command: "/pop" },{ title: "ር.ሊ.ጳጳሳት እንዴት ነው የሚመረጡት?", command: "/cardinal" }],
     [{ title: "አብያተ ክርስቲያናት ከካቶሊክ መቼ ተለዩ", command: "/split"}],
 [{title:"በቪድዮ የተደገፈ",command:"/hayal"},{title:"PDF መጽሀፍ",command:"/pdac"}],
-[{title:"↩️ወደመጡበት ለመመለስ↩️",command:"/menu M"}]]
+[{title:"↩️ወደመጡበት ለመመለስ↩️",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" በዚህ ገፅ ስለካቶሊክ እምነት በሚገባ ያውቁበታል፡፡ ከታች ያሉትን button ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
