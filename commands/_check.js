@@ -14,7 +14,7 @@ let user = options.result.status
 if (user == "member" || user == "creator") {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"ቻነሉን ተቀላቅለዋል አሁን ቦቱን መጠቀም ይችላሉ😊",
+  text:"✅Please wait.....",
   show_alert: " top" })
   
 Bot.runCommand("/menu")
