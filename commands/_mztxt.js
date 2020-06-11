@@ -31,6 +31,6 @@ var b=[
 [{title:"ተጠመቀልን",command:"/tetmk"},{title:"አመልክሀለሁ", command :"/amlk"}],
 [{title:"ጎልጎልታ ወጣ", command :"/golgol"},{title:"አንድ አድርጎናል",command:"/onewe"}],
 [{title:"የሰማይ የምድር ንጉስ",command:"/zsmng"}],
-[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/menu"}]]
+[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/mych"}]]
 
 Bot.editMessage("በዚህ ገፅ የካቶሊካዊት ቤተክርስቲያን መዝሙሮች በፅሁፍ ተቀምጠዋል፡፡ ከታች ያሉትን በተኖች ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
