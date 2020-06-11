@@ -29,6 +29,6 @@ var b=[
 [{title:"ቅ.ገብርኤል #4",command:"/kbr4"},{title:"ቅ.ማርያም", command :"/kdmr"}],
 [{title:"አባ ኤፍሬም #2",command:"/efram"},{title:"ዘ.ብርቱካን", command :"/brtuk"}],
 [{title:"ደብረዘይት #2",command:"/dbrz"},{title:"ሆሳእና ቅ.ስ", command :"/hasan"}],
-[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/menu"}]]
+[{title:"⏭ለመመለስ",command:"/mzmu"},{title:" ↕️ዋና ገፅ ", command :"/mych"}]]
 
 Bot.editMessage("በዚህ ገፅ የካቶሊካዊት ቤተክርስቲያን መዝሙሮች በአልበም ተቀምጠዋል፡፡ ከታች ያሉትን በተኖች ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)

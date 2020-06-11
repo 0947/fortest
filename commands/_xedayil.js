@@ -24,6 +24,6 @@ var b =[
 [{title:"ስለ መንገደኞች",command:"/xlrod"},{title:"ወደ መንፈስ ቅዱስ",command:"/xlhol"}],
 [{title:"ስለ ቤ/ክ ሰላም",command:"/xlch"},{title:"ስለ ቤት ቡራኬ",command:"/xlbet"}],
 [{title:"ፀሎት ስለ ቤተሰብ ብራኬ",command:"/xlhow"}],
-[{title:"⏪ተመለስ⏩",command:"/xelo"},{title:"⬆️ዋና ገጽ⬇️",command:"/menu M"}]]
+[{title:"⏪ተመለስ⏩",command:"/xelo"},{title:"⬆️ዋና ገጽ⬇️",command:"/mych"}]]
 
 Bot.editMessage("በዚህ button በየእለቱ የሚደረጉ (የዘወትር ፀሎት) ማግኘት ይችላሉ፡፡ ከታች ያሉትን በተኖች ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
