@@ -25,3 +25,11 @@ let msg=User.getProperty("msgid")
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
+
+
+let p=request.photo[0]
+
+if(p){
+Bot.runCommand("/sampics")
+}
+
