@@ -11,4 +11,4 @@ CMD*/
 
 let id = user.telegramid;
 Api.getChatMember({
-chat_id:"@catholicb", user_id: id, on_result :"/check"})
+chat_id:"@catholicb", user_id: id, on_result :"/checkersam"})
