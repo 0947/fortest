@@ -15,6 +15,6 @@ var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendPhoto({
   chat_id: chat.chatid,
-  photo: "https://t.me/xexgbjnsjnjudxbjjdxSam/865)",reply_markup: { inline_keyboard: b } })
+  photo: "https://t.me/xexgbjnsjnjudxbjjdxSam/865)",reply_markup: { inline_keyboard: b },on_result: "/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})

@@ -15,6 +15,6 @@ var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendVideo({
   chat_id: chat.chatid,
-  video: "https://t.me/xexgbjnsjnjudxbjjdxSam/862)",reply_markup: { inline_keyboard: b } })
+  video: "https://t.me/xexgbjnsjnjudxbjjdxSam/862)",reply_markup: { inline_keyboard: b },on_result: "/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
