@@ -9,6 +9,8 @@
   aliases: 
 CMD*/
 
+let msg=User.getProperty("msgid")
+
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/67"})
@@ -30,11 +32,11 @@ Api.sendDocument({
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/73"})
+
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
+
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/74"})
-var b =[
-[{ title: "✨Page1⃣", command: "/tigpdf1" },{ title: "✨Page2⃣", command: "/tigpdf2" }],
-[{ title: "✨Page3⃣", command: "/tigpdf3" },{ title: "✨Page4⃣", command: "/tigpdf4" }],
-[{ title: "⬆️ወደ ዋናገፅ ይመለሱ⬆️ ", command: "/mych" }]]
-Bot.sendInlineKeyboard(b,"👇🏽ከታች የሚፈልጉትን ገፅ ቁጥር ይምረጡ")
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/74)",reply_markup: { inline_keyboard: b } })
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
