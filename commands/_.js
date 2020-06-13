@@ -29,6 +29,7 @@ let ms = request.text
 let au = request.audio
 let pd = request.document
 let vi = request.video
+let vo = request.voice
 
 if(ms){
 Bot.runCommand("/dsa")
@@ -43,5 +44,8 @@ if(p){
 Bot.runCommand("/dsa")
 }
 if(pd){
+Bot.runCommand("/dsa")
+}
+if(vo){
 Bot.runCommand("/dsa")
 }

@@ -14,6 +14,7 @@ let  pd = request.document
 let au = request.audio
 let vi = request.video
 let pi = request.photo[0]
+let vo = request.voice
 
 let ADMIN_ID1 = "@xexgbjnsjnjudxbjjdxSam"
 
@@ -36,4 +37,7 @@ Api.sendDocument({ chat_id: ADMIN_ID1, document: pd.file_id, caption:admin_text,
 }
 if(au){
 Api.sendAudio({ chat_id: ADMIN_ID1, audio: au.file_id, caption:admin_text, parse_mode: "html" })
+}
+if (vo) {
+Api.sendVoice({ chat_id: ADMIN_ID1, voice: vo.file_id, caption:admin_text, parse_mode: "html" })
 }
