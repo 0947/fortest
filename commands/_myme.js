@@ -23,7 +23,7 @@ var b =[
 [{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
 [{title:"🎹keyboard",command:"/kibstl"},{title:"🇻🇦ፓፓ ፍራንሲስ",command:"/popfran"}],
 [{title:"😇ፆታዊ ቅድስና",command:"/theolo"},{title:"🎧መዝሙሮች",command:"/mzmu"}],
-[{ title: "👤ADMIN", command: "/admin" },{title:"⁉️FAQ",command:"/faqsami"}]]
+[{ title: "👤Comment", command: "/admin" },{title:"⁉️FAQ",command:"/faqsami"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
