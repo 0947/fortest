@@ -14,7 +14,7 @@ let msg=User.getProperty("msgid")
 var b =[
 [{ title: "🏠የካቶሊክ ቤተክርስቲያን ምንነት", command: "/first" }],
 [{ title:"🇪🇹የትግርኛ ገፅ🇪🇹", command:"/tigray"}],
-[ { title: "💒ስብከቶች", command: "/thalk" },{title:"⚠️COVID ፕሮግራሞች",command:"/covid"}],
+[ { title: "💒የቤ/ክ አስተምህሮ", command: "/thalk" },{title:"⚠️COVID ፕሮግራሞች",command:"/covid"}],
 [{title:"📜የቅዱሳን ታሪክ📜",command:"/kidus"},{title:"🙀የቮካል ስልጠና",command:"/vocal"}],
 [{title:"🗞ግፃዌ",command:"/gex"},{title:"🔅ግዕዝ ዜማ",command:"/geez"}],
 [{title:"✝ጸሎት",command:"/xelo"},{title:"🎬ሲኒማ",command:"/catcin"}],
@@ -23,7 +23,7 @@ var b =[
 [{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
 [{title:"🎹keyboard",command:"/kibstl"},{title:"🇻🇦ፓፓ ፍራንሲስ",command:"/popfran"}],
 [{title:"😇ፆታዊ ቅድስና",command:"/theolo"},{title:"🎧መዝሙሮች",command:"/mzmu"}],
-[{ title: "👤አስተያየት ለመስጠት", command: "/admin" }]]
+[{ title: "👤ADMIN", command: "/admin" },{title:"⁉️FAQ",command:"/faqsami"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
