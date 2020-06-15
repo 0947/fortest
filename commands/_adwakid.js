@@ -47,5 +47,5 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/342"})
 
 var b=[
-[{title:" ↕️ዋና ገፅ ", command :"/mych"}]]
+[{title:" ↕️ዋና ገፅ ", command :"/mytig"}]]
 Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")
