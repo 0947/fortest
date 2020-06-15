@@ -19,3 +19,7 @@ Bot.sendInlineKeyboard(buttons, "*🤖ይህንን ቦት ለመጠቀም በቅ
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
+
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
