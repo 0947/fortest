@@ -9,10 +9,12 @@
   aliases: 
 CMD*/
 
-let msg = User.getProperty("msgid");
+let msgs=Bot.getProperty("pintantion")
 
-var b =[
-[{title:"ተመለስ",command:"/popfran"}]
-]
+var b = [
+    {title: "ተመለስ", command: "/popfran"}];
 
-Bot.editMessage("🔥በዚህ ወር በኮረና ለተጠቁ ሀገራትና በዚህ በሽታ ተይዘው ለሚገኙት ሁሉ እንፀልይ፡፡ እግዚአብሄር አምላክ ለአለማችን ምህረትን ያውርድ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.sendInlineKeyboard(b, msgs,{on_result:"/msgid"});
+let msg=User.getProperty("msgid")
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
