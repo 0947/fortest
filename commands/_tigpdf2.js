@@ -33,10 +33,10 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/73"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mytig"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/74)",reply_markup: { inline_keyboard: b } })
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/74)",reply_markup: { inline_keyboard: b },on_result: "/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
