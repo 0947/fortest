@@ -23,6 +23,6 @@ var b =[
 [{title:"⚜እ/ር ዓቢ ነገር ገይሩለይ⚜", command :"/bt50"},{title:"⚜ኣምላኽ ንደቁ ይመርሕ⚜",command:"/bt47"}],
 [{title:"⚜ስጋኻን ደምካን ወፊኻለይ⚜", command :"/bt45"},{title:"⚜ተስፋ አይቆርፅን ኢየ⚜",command:"/bt41"}],
 [{title:"⚜መቑሕ ናይ ዓለም ሰበሮ⚜", command :"/bt36"},{title:"⚜ከመስግነካ ይደሊ ኣለኹ⚜",command:"/bt34"}],
-[{title:"⏭ለመመለስ⏮",command:"/tigmez"},{title:" ↕️ዋና ገፅ↕️", command :"/mych"}]]
+[{title:"⏭ለመመለስ⏮",command:"/tigmez"},{title:" ↕️ዋና ገፅ↕️", command :"/mytig"}]]
 
 Bot.editMessage("ከዚህ በማስከተል የትግርኛ መዝሙሮችን በፅሁፍ አሰናድተናል፡፡ ደመዝሙሮቹን ስም ከታች መርጠው ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
