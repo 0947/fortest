@@ -41,3 +41,7 @@ let msgs=User.getProperty("msgid")
 Api.deleteMessage({chat_id:chat.chatid,message_id:msgs})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
+
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
