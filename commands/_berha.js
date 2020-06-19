@@ -1,7 +1,7 @@
 /*CMD
   command: /berha
   help: 
-  need_reply: 
+  need_reply: false
   auto_retry_time: 
   folder: 
   answer: 
@@ -44,5 +44,5 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/165"})
 
 var b=[
-[{title:" ↕️ዋና ገፅ ", command :"/mych"}]]
+[{title:" ↕️ዋና ገፅ ", command :"/mytig"}]]
 Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")
