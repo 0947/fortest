@@ -1,5 +1,5 @@
 /*CMD
-  command: /repid
+  command: /said
   help: 
   need_reply: true
   auto_retry_time: 
