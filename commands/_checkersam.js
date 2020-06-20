@@ -14,7 +14,7 @@ let user = options.result.status
 if (user == "member" || user == "creator") {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"✅Data Updating.....",
+  text:"✔Downloading data from the server...",
   show_alert: " top" })
   
 Bot.runCommand("/myme")
