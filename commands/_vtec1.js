@@ -30,11 +30,10 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxsam/505",caption:  "የድምፅ ቴክኒኮች"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/vtec"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxsam/506",caption:  "🗣የድምፅ ቴክኒኮች",reply_markup: { inline_keyboard: b }
-})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxsam/506",caption:  "🗣የድምፅ ቴክኒኮች",reply_markup: { inline_keyboard: b },on_result: "/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
