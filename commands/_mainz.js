@@ -14,8 +14,8 @@ let msg=User.getProperty("msgid")
 var b =[
 [{ title: "🇪🇹አማርኛ", command: "/mych" },{title:"🇪🇹ትግርኛ",command:"/mytig"},{title:"🇪🇹ወላይትኛ",command:"/mywl"}],
 [{title:"🇪🇹ሳሆኛ",command:"/mysh"},{title:"🇪🇹Oromifaa",command:"/myor"},{title:"🇪🇹ሀድይኛ",command:"/hymy"}],
-[{title:"🇪🇹ጉራጊኛ",command:"/gumy"},{title:"🇪🇹ብሌንኛ",command:"/mybl"},{title:"🇺🇸English",command:"/myin"}],
-[{title:"📩Developer",command:"/enadm"},{title:"✅Reload",command:"/mytg"}]]
+[{title:"🇪🇹ጉራጊኛ",command:"/gumy"},{title:"🇪🇹ብሌንኛ",command:"/mybl"},{title:"🇪🇹ኩናምኛ",command:"/myku"}],
+[{title:"🇺🇸English",command:"/myin"},{title:"📩Developer",command:"/enadm"},{title:"✅About",command:"/enfq"}]]
 
  th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
