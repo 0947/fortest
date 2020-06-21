@@ -40,7 +40,7 @@ Api.sendDocument({
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/682",caption:  "@catholicb"})
 
 
-var b = [[{ text: "GO BACK", callback_data: "/myin"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/myin"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,
