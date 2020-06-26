@@ -18,7 +18,7 @@ let vo = request.voice
 
 let ADMIN_ID1 = "@xexgbjnsjnjudxbjjdxSam"
 
-let admin_text ="<b> From:</b> " + '<a href="' + "tg://user?id=" + user.telegramid + '">' + user.first_name + "</a>\n 🆔 :"+user.telegramid
+let admin_text =request.caption+"\n\n----------------------------------------------------------------------\n<b> From:</b> " + '<a href="' + "tg://user?id=" + user.telegramid + '">' + user.first_name + "</a>\n 🆔 :"+user.telegramid
 
 let adm="<b>Message From:</b> " + '<a href="' + "tg://user?id=" + user.telegramid + '">' + user.first_name + "</a>\n🆔 :"+user.telegramid +"<b>\n Message:</b> <code>" + ms +"</code>"
 
