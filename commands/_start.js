@@ -14,7 +14,7 @@ chat_id:chat.chatid,
 action:"typing"})
 
 if(!params){
-Bot.run({command: "/start aa", run_after:1
+Bot.run({command: "/start aa", run_after:0.5
 })
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
