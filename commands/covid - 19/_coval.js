@@ -26,9 +26,9 @@ var th=""+user.first_name+""
 
 if(params=="M") 
 {
-Bot.editMessage(th+"  🇺🇸Please Select The First ALPHABET of the country name.\n\n🇪🇹እባክዎትን የሀገሩን ስም የመጀመሪያ ሆሄ ይምረጡ፡፡*",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage(th+"  *🇺🇸Please Select The First ALPHABET of the country name.\n\n🇪🇹እባክዎትን የሀገሩን ስም የመጀመሪያ ሆሄ ይምረጡ፡፡*",msg)&Bot.editInlineKeyboard(b,msg)
 }else{
-Bot.sendInlineKeyboard(b,  th+"  🇺🇸Please Select The First ALPHABET of the country name.\n\n🇪🇹እባክዎትን የሀገሩን ስም የመጀመሪያ ሆሄ ይምረጡ፡፡*",{on_result:"/msgid"})
+Bot.sendInlineKeyboard(b,  th+"  *🇺🇸Please Select The First ALPHABET of the country name.\n\n🇪🇹እባክዎትን የሀገሩን ስም የመጀመሪያ ሆሄ ይምረጡ፡፡*",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
 }
