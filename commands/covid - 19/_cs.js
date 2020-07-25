@@ -27,7 +27,6 @@ var b =[
 [{title:"SRI LANKA",command:"/country lk"}],
 [{title:"SUDAN",command:"/country sd"}],
 [{title:"SURINAME",command:"/country sr"}],
-[{title:"SVALNARD",command:"/country sj"}],
 [{title:"SWAZILAND",command:"/country sz"}],
 [{title:"SWEDEN",command:"/country se"}],
 [{title:"SWITZERLAND",command:"/country ch"}],

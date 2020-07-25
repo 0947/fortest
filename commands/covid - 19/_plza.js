@@ -1,5 +1,5 @@
 /*CMD
-  command: /mycov
+  command: /plza
   help: 
   need_reply: 
   auto_retry_time: 
@@ -12,7 +12,7 @@ CMD*/
 let msg=User.getProperty("msgid")
 
 var b =[
-[{ title: "🇪🇹ኢትዮጵያ", command: "/amharicc Et" },{title:"🌍GLOBAL",command:"/global_track"}],[{title:"🔍ሀገር ለመፈለግ / Search🔎",command:"/coval"}],
+[{ title: "🇪🇹ኢትዮጵያ", command: "/country et" },{title:"🌍GLOBAL",command:"/global_track"}],[{title:"🔍ሀገር ለመፈለግ / Search🔎",command:"/coval"}],
 [{title:"<--",command:"/mytg"}]]
 
  th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"

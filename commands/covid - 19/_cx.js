@@ -1,7 +1,7 @@
 /*CMD
-  command: /covo
+  command: /cx
   help: 
-  need_reply: 
+  need_reply: false
   auto_retry_time: 
   folder: covid - 19
   answer: 
@@ -9,7 +9,7 @@
   aliases: 
 CMD*/
 
-var b = [[{ text: "⬅️GO BACK", callback_data: "/coval"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mycov"}]]
 
 let msg = User.getProperty("msgid");
 let r = JSON.parse(content)
@@ -29,18 +29,18 @@ if(!err){
   Api.sendPhoto({
     photo: photo,
     caption:
-     "*STATISTICS\n\n✈️COUNTRY : " + re10 +
-      "\n\n🤧Total Infected : *" +
+     "*STATISTICS\n\n✔ሀገር : " + re10 +
+      "\n\n🤧በአጠቃላይ የተጠቁ : *" +
       re1 +
-      "\n*💪Total Recovered : *" +
+      "\n*💪በአጠቃላይ ያገገሙ : *" +
       re2 +
-      "\n*☠️Total Death : *" +
+      "\n*☠️ጠቅላላ ሞት : *" +
       re4 +
-      "\n*🤕Total Active Cases  : *" +
+      "\n*🏠ማቆያ ውስጥ ያሉ  : *" +
       re8 +
-      "\n\n*⛔️Today Info :*\n\n*😷 Today Infected : * " +
+      "\n\n*⛔️የዛሬ መረጃ :*\n\n*😷የተያዙ : * " +
       re5 +
-      "\n*👽 Today Death : *" +
+      "\n*👽የሞቱ : *" +
       re6 +
       "",
     parse_mode: "Markdown", on_result:"/msgid",reply_markup: { inline_keyboard: b} })
