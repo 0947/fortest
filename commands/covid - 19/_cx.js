@@ -42,7 +42,7 @@ if(!err){
       re5 +
       "\n*👽ዛሬ የሞቱ : *" +
       re6 +
-      "\n*😃ዛሬ ያገገሙ : *" + re7,
+      "\n*😊ዛሬ ያገገሙ : *" + re7,
     parse_mode: "Markdown", on_result:"/msgid",reply_markup: { inline_keyboard: b} })
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})

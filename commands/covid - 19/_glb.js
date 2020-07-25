@@ -36,7 +36,7 @@ let re9=r.todayRecovered
       re8 +
       "\n\n*⛔️Today Info :*\n\n*😷Today Infected : * " +
       re5 +
-"\n*😃Today Recovered : *" +
+"\n*😊Today Recovered : *" +
 re9 +
       "\n*👽Today Death : *" +
  re6 +
