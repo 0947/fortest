@@ -23,6 +23,7 @@ let re6=r.todayDeaths
 let re5=r.todayCases
 let re9=r.countryInfo.iso2
 let re10 =r.country
+let re11=r.tests
 var photo =  r.countryInfo.flag
 
 if(!err){
@@ -32,6 +33,8 @@ if(!err){
      "*STATISTICS\n\n✈️COUNTRY : " + re10 +
       "\n\n🤧Total Infected : *" +
       re1 +
+"\n*💉Total Tests : *" + 
+re11 +
       "\n*💪Total Recovered : *" +
       re2 +
       "\n*☠️Total Death : *" +

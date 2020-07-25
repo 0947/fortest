@@ -23,6 +23,7 @@ let re6=r.todayDeaths
 let re5=r.todayCases
 let re9=r.countryInfo.iso2
 let re10 =r.country
+let re11=r.tests
 var photo =  r.countryInfo.flag
 
 if(!err){
@@ -32,6 +33,8 @@ if(!err){
      "*የኮቪድ መረጃዎች\n\n🇪🇹ሀገር : " + re10 +
       "\n\n🤧ጠቅላላ የተያዙ : *" +
       re1 +
+"\n*💉ጠቅላላ ምርመራ : *" + 
+re11 +
       "\n*💪ጠቅላላ ያገገሙ : *" +
       re2 +
       "\n*☠️ጠቅላላ ሞት : *" +
