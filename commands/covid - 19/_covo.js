@@ -18,7 +18,7 @@ let re8=r.active
 let re1=r.cases
 let re4=r.deaths
 let re2=r.recovered
-let re7=r.todayrecovered
+let re7=r.todayRecovered
 let re6=r.todayDeaths
 let re5=r.todayCases
 let re9=r.countryInfo.iso2
@@ -42,7 +42,7 @@ if(!err){
       re5 +
       "\n*👽 Today Death : *" +
       re6 +
-      "",
+      "\n*😊today recovered : *" + re7,
     parse_mode: "Markdown", on_result:"/msgid",reply_markup: { inline_keyboard: b} })
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})

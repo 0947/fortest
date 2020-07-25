@@ -20,6 +20,7 @@ let re2=r.recovered
 let re7=r.todayrecovered
 let re6=r.todayDeaths
 let re5=r.todayCases
+let re9=r.todayRecovered
 
   Api.sendPhoto({
     photo: "https://t.me/xexgbjnsjnjudxbjjdxSam/2726",
@@ -33,10 +34,12 @@ let re5=r.todayCases
       re4 +
       "\n*🤕Total Active Cases  : *" +
       re8 +
-      "\n\n*⛔️Today Info :*\n\n*😷 Today Infected : * " +
+      "\n\n*⛔️Today Info :*\n\n*😷Today Infected : * " +
       re5 +
-      "\n*👽 Today Death : *" +
-      re6 +
+"\n*😃Today Recovered : *" +
+re9 +
+      "\n*👽Today Death : *" +
+ re6 +
       "",
     parse_mode: "Markdown", on_result:"/msgid",reply_markup: { inline_keyboard: b} })
 
