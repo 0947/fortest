@@ -12,11 +12,10 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"IVORY-COAST",command:"/country cl"}],
 [{title:"ICELAND",command:"/country is"}],
 [{title:"INDIA",command:"/country in"}],[{title:"INDONESIA",command:"/country id"}],
-[{title:"IRAN",command:"/country iv"}],
-[{title:"IRAQ",command:"/country ia"}],
+[{title:"IRAN",command:"/country irn"}],
+[{title:"IRAQ",command:"/country irq"}],
 [{title:"IRELAND",command:"/country ie"}],
 [{title:"ISRAEL",command:"/country il"}],
 [{title:"ITALY",command:"/country it"}],
