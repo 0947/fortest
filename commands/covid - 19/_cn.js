@@ -16,7 +16,6 @@ var b =[
 [{title:"NEW-ZEALAND",command:"/country nz"}],
 [{title:"NICARAGUA",command:"/country ni"}],[{title:"NIGER",command:"/country ne"}],
 [{title:"NIGERIA",command:"/country ng"}],
-[{title:"NORTH KOREA",command:"/country kp"}],
 [{title:"NORWAY",command:"/country no"}],
 [{title:"✅GO BACK",command:"/coval"}]]
 

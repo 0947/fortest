@@ -21,7 +21,6 @@ var b =[
 [{title:"SOLOMON ISLANDS",command:"/country sb"}],
 [{title:"SOMALIA",command:"/country so"}],
 [{title:"SOUTH AFRICA",command:"/country za"}],
-[{title:"SOUTH KOREA",command:"/country ke"}],
 [{title:"SOUTH SUDAN",command:"/country ss"}],
 [{title:"SPAIN",command:"/country es"}],
 [{title:"SRI LANKA",command:"/country lk"}],
