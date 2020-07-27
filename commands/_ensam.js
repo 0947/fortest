@@ -12,8 +12,8 @@ CMD*/
 let msg=User.getProperty("msgid")
 
 var b =[
-[{title:"〽️What is Catholicsin",command:"/encat"}],
-[{title:"🗣Sermons",command:"/siben"},{title:"🔧APPS",command:"/inapp1"}],
+[{title:"🔧APPS",command:"/inapp1"}],
+[{title:"WHAT IS CATHOLICISM",command:"/dopingp"}],
 [{title:"🌍Change Language🌍",command:"/mytg"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"

@@ -12,8 +12,8 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"የወሩ የፀሎት ሀሳብ",command:"/pomon"},{title:"አባባሎች",command:"/popaba"}],
-[{title:"⬅️",command:"/mych"}],
+[{title:"አባባሎች",command:"/popaba"}],
+[{title:"<--",command:"/mych"}],
 ]
 
 Bot.editMessage(user.first_name+" ይህ የፓፓ ፍራንቺስኮስ ገጽ ነው ከታች ያሉ በተኖች ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
