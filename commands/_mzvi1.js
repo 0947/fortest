@@ -41,5 +41,5 @@ Api.sendVideo({
   video: "https://t.me/xexgbjnsjnjudxbjjdxSam/905"})
 
 var b=[
-[{title:" ተመለስ ", command :"/mzmu"},{title:"ዋና ገጽ",command:"/mych"}]]
+[{title:"<-- ዋና ገጽ",command:"/mych"}]]
 Bot.sendInlineKeyboard(b,"ወደ ኃላ ወይንም ወደ ዋና ማውጫ ይመለሱ")

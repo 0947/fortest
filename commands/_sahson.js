@@ -23,6 +23,12 @@ Api.sendDocument({
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/2304"})
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/2762"})
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/2763"})
 
 var b = [[{ text: "ተመለስ", callback_data: "/mysh"}]]
 
