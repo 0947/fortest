@@ -9,10 +9,10 @@
   aliases: 
 CMD*/
 
-Bot.sendInlineKeyboard(
-  [
-  { title: "ይህንን ይጫኑ", command: "/mych"}], 
-"ውድ  "+ user.first_name+" ወደ ዋና ገጽ ለመሄድ ከታች ያለውን ይጫኑት",{on_result:"/msgid"})
-let msg=User.getProperty("msgid")
+let msg = User.getProperty("msgid");
 
-Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+var b=[
+[{ title: "❗️ይህንን ይጫኑ", command: "/mych"},{title:"❗️Home Page",command:"/mych"}]]
+
+Bot.editMessage("*ውድ  "+ user.first_name+" 
+ 💯ወደ ዋና ገጽ ለመሄድ ከታች ያለውን ይጫኑት✅*",msg)&Bot.editInlineKeyboard(b,msg)
