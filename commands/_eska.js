@@ -12,9 +12,9 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"👁ተአምር 1👁",command:"/eska1"},{title:"👁ተአምር 2👁",command:"/eska2"}],
-[{title:"👁ተአምር 3👁",command:"/eska3"},{title:"👁ተአምር 4👁",command:"/eska4"}],
-[{title:"👁ተአምር 5👁",command:"/eska1"}],
+[{title:"ተአምር 1",command:"/eska1"},{title:"ተአምር 2",command:"/eska2"}],
+[{title:"ተአምር 3",command:"/eska3"},{title:"ተአምር 4",command:"/eska4"}],
+[{title:"ተአምር 5",command:"/eska1"}],
 [{title:"⏭ለመመለስ",command:"/kidus"},{title:"🔼ዋና ገጽ",command:"/mych"}]
 ]
 

@@ -13,8 +13,8 @@ let msg=User.getProperty("msgid")
 
 var b = [[{ text: "◀️ተመለስ", callback_data: "/mych"}]]
 
- Api.sendDocument({
+ Api.sendVideo({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/439",caption:  "ማርሴሊኖ", reply_markup: { inline_keyboard: b } })
+  video: "https://t.me/xexgbjnsjnjudxbjjdxSam/2787",caption:  "https://youtu.be/IWMFA8m6CQ0", reply_markup: { inline_keyboard: b },on_result: "/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
