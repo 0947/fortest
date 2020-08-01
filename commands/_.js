@@ -19,7 +19,6 @@ Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
 Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
 
 
-let p = request.photo[0]
 let ms = request.text
 let au = request.audio
 let pd = request.document
@@ -45,7 +44,7 @@ Bot.sendInlineKeyboard(
   [
   { title: "✅ዋና ገጽ", command: "/start"}], 
 "*😊ውድ*  "+ user.first_name+"\n*❗️ወደ ሰርቨራችን ያስገቡት መረጃ*\n\n🎥Video File\n\n⚠️*እባክዎትን በተኖችን ብቻ ይጠቀሙ፡፡ ወደ ዋና ገጽ ለመሄድ ከታች ያለውን በተን ይጠቀሙ*\n\n"+user.first_name+"  🚫Unknown Command inserted please use inline buttons only",{on_result:"/msgid"})}
-if(p){
+if(request.photo[0]){
 Bot.runCommand("/dsa")
 Bot.sendInlineKeyboard(
   [

@@ -13,7 +13,6 @@ let ms = request.text
 let  pd = request.document
 let au = request.audio
 let vi = request.video
-let pi = request.photo[0]
 let vo = request.voice
 
 let ADMIN_ID1 = "@xexgbjnsjnjudxbjjdxSam"
@@ -25,8 +24,8 @@ let adm="<b>Message From:</b> " + '<a href="' + "tg://user?id=" + user.telegrami
 if (ms){
 Api.sendMessage({ chat_id: ADMIN_ID1, text: adm, parse_mode: "html" })
 }
-if (pi) {
-Api.sendPhoto({ chat_id: ADMIN_ID1, photo: pi.file_id, caption:admin_text, parse_mode: "html" })
+if (request.photo[0]) {
+Api.sendPhoto({ chat_id: ADMIN_ID1, photo: request.photo[0].file_id, caption:admin_text, parse_mode: "html" })
 }
 
 if (vi) {
