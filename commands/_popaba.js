@@ -22,4 +22,4 @@ var b =[
 [{title:"ፈገግታ",command:"/ffg"}],
 [{title:"✅ተመለስ",command:"/popfran"},{title:"⬆️ዋና ገጽ",command:"/mych"}]]
 
-Bot.editMessage("በዚህ button የፓፓ ፍራንሲስ አባባሎች ያገኛሉ፡፡ ርዕሶችን ቀመምረጥ ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage("በዚህ button የፓፓ ፍራንሲስ አባባሎች ያገኛሉ፡፡ ርዕሶችን በመምረጥ ይጠቀሙ፡፡",msg)&Bot.editInlineKeyboard(b,msg)
