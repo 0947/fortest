@@ -17,6 +17,10 @@ Api.sendDocument({
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/87"})
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/2846"})
+
 
 var b = [[{ text: "ተመለስ", callback_data: "/mytig"}]]
 
