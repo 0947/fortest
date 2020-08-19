@@ -12,11 +12,11 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"🗣በድምፅ የተደገፈ🗣",command:"/vaud"},{title:"🗣ቮካል APP🗣",command:"/vap"}],
-[{title:"🗣የቮካል ሊንኮች🗣",command:"/vlin"},{title:"🗣የቮካል Video",command:"/vvid"}],
-[{title:"🗣ቮካል በፎቶ🗣",command:"/vopic"},{title:"🗣Vocal Teacher🗣",command:"/ptv"}],
-[{title:"🗣የጥሩ ቮካል ውጤቶች ምሳሌ🗣",command:"/pvoc"}],
-[{title:"🔇About Vocal - ስለ ቮካል",command:"/abtvc"}],
+[{title:"🗣በድምፅ የተደገፈ",command:"/vaud"},{title:"🗣ቮካል APP",command:"/vap"}],
+[{title:"🗣የቮካል ሊንኮች",command:"/vlin"},{title:"🗣የቮካል Video",command:"/vvid"}],
+[{title:"🗣ቮካል በፎቶ",command:"/vopic"},{title:"🗣Vocal Teacher",command:"/ptv"}],
+[{title:"🗣የጥሩ ቮካል ውጤቶች ምሳሌ",command:"/pvoc"}],
+[{title:"🔇About Vocal",command:"/abtvc"},{title:"✅Vocal Training",command:"/vctr"}],
 [{title:"⬆️ወደ ዋናው ገጽ ለመመለስ⬅️ ",command:"/mych"}],
 ]
 
