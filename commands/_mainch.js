@@ -21,7 +21,7 @@ Bot.runCommand("/mainz")
 } else {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"⚠️ቻነሉን አልተቀላቀሉም በድጋሚ ይሞክሩ‼️",
+  text:"📛ይቅርታ ቻነሉን Join አድርገው ይሞክሩ🚫",
   show_alert: "top"
 })}
 

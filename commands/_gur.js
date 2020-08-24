@@ -21,7 +21,7 @@ Bot.runCommand("/gusam")
 } else {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"⚠️Join the channel first‼️",
+  text:"📛ይቅርታ ቻነሉን Join አድርገው ይሞክሩ🚫",
   show_alert: "top"
 })}
 
