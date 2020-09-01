@@ -11,6 +11,9 @@ CMD*/
 
 let msg=User.getProperty("msgid")
 
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3283"})
 
 var b = [[{ text: "ተዘበር", callback_data: "/gumy"}]]
 

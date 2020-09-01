@@ -13,14 +13,10 @@ let msg=User.getProperty("msgid")
 
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/86"})
-Api.sendDocument({
-  chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/87"})
-Api.sendDocument({
-  chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/2846"})
-
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3222"})
 
 var b = [[{ text: "ተመለስ", callback_data: "/mytig"}]]
 

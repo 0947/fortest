@@ -14,7 +14,7 @@ let user = options.result.status
 if (user == "member" || user == "creator") {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"✅Wait downloading from server.....",
+  text:"✅ዝኸታ የጉራጊና ክፍሉ.....",
   show_alert: " top" })
   
 Bot.runCommand("/gusam")

@@ -1,5 +1,5 @@
 /*CMD
-  command: /tigmek
+  command: /don4
   help: 
   need_reply: 
   auto_retry_time: 
@@ -11,19 +11,19 @@ CMD*/
 
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/401"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3253"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/402"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3254"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/403"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3255"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3232"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3256"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3227"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3257"})
 
 var b=[
 [{title:" ↕️ዋና ገፅ ", command :"/mytig"}]]

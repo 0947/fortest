@@ -13,7 +13,9 @@ let msg = User.getProperty("msgid");
 
 var b =[
 [{ title: "🎤ስብከት🎤", command: "/tigsib" },{ title: "➕መቁፀሪያ➕", command: "/tigmek" }],
-[{ title: "🗣ስብከት በአባ ዮናስ🗣", command: "/tigsib2" },{ title: "👁ግዕዝ ዜማ👁", command: "/geez" }]]
+[{ title: "🗣ስብከት በአባ ዮናስ🗣", command: "/tigsib2" },{ title: "👁ግዕዝ ዜማ👁", command: "/geez" }],
+[{title:"〽️የቅዱስ ዶንቦስኮ ታሪክ〽️",command:"/don"}],
+[{title:"<--",command:"/mytig"}]]
 
 
 
