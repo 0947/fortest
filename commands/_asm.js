@@ -9,9 +9,12 @@
   aliases: 
 CMD*/
 
+let msg = User.getProperty("msgid");
+
 var b =[
 [{ title: "Volume 1", command: "/asm1" },{ title: "Volume 2", command: "/asm2" }],
 [{title:"Volume 3",command 
-:"/asm3"}]]
+:"/asm3"}],
+[{title:"<--",command:"/tigmez1"}]]
 
-Bot.sendInlineKeyboard(b,"ከዚህ በታች የቅዱስ አንጦኒዮስ አስመራ መዝሙሮች በVOLUME ተከፋፍለው ቀርበዋል ይጠቀሙባቸው")
+Bot.editMessage("ከዚህ በታች የአስመራ ቅዱስ አንጦኒዮስ መዝሙሮች ሲሆኑ በVolume ተከፋፍለው ቀርበዋል",msg)&Bot.editInlineKeyboard(b,msg)

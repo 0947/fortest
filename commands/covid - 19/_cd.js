@@ -13,7 +13,6 @@ let msg = User.getProperty("msgid");
 
 var b =[
 [{title:"DENMARK",command:"/country dk"}],
-[{title:"DIAMOND PRINCESS",command:"/country dp"}],
 [{title:"DJIBOUTI",command:"/country dj"}],[{title:"DEMOCRATIC REPUBLIC",command:"/country do"}],
 [{title:"DR CONGO",command:"/country co"}],
 [{title:"✅GO BACK",command:"/coval"}]]

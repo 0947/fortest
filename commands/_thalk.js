@@ -9,12 +9,10 @@
   aliases: 
 CMD*/
 
-
-
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"🔇የ audio ትምህርቶች",command:"/aud"}],
-]
+[{title:"🔇የaudio ትምህርቶች",command:"/aud"}],
+[{title:"<--",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" የሚፈልጉትን አስተምህሮት አሰናድተናል ከታች ባለው button ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)

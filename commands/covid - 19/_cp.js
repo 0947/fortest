@@ -20,7 +20,6 @@ var b =[
 [{title:"PHILIPPINES",command:"/country ph"}],
 [{title:"POLAND",command:"/country pl"}],
 [{title:"PORTUGAL",command:"/country pt"}],
-[{title:"PUERTO RICO",command:"/country pr"}],
 [{title:"✅GO BACK",command:"/coval"}]]
 
 Bot.editMessage("*Select The Country You Want*",msg)&Bot.editInlineKeyboard(b,msg)

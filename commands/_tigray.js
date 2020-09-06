@@ -12,9 +12,11 @@ CMD*/
 let msg=User.getProperty("msgid")
 
 var b =[
-[{ title: "☘መዝሙሮች☘", command: "/tigmez" },{ title: "🍃PDF መፅሀፍ🍃", command: "/tigpdf" }],
-[{ title: "⚡️የቫቲካን ሬዲዮ⚡️", command: "/tigvat" },{ title: "🌺የድምፅ ስራዎች🌺", command: "/tigaud" }],
-[{ title: "🎬ቪዲዮዎች🎬", command: "/tigvid" },{title:"🎲አፕሊኬሽን🎲",command:"/tigapp"}],[{title:"🌍ቋንቋ ለመቀየር / Change Language🌎",command:"/mytg"}]]
+[{ title: "☘መዝሙሮች", command: "/tigmez" },{ title: "🍃PDF መፅሀፍ", command: "/tigpdf" }],
+[{ title: "⚡️የቫቲካን ሬዲዮ", command: "/tigvat" },{ title: "🌺የድምፅ ስራዎች", command: "/tigaud" }],
+[{ title: "🎬ቪዲዮዎች", command: "/tigvid" },{title:"🎲አፕሊኬሽን",command:"/tigapp"}],
+[{title:"🙏ፀሎት",command:"/xetig"}],
+[{title:"🌍ቋንቋ ለመቀየር / Change Language🌎",command:"/mytg"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 

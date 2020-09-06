@@ -48,7 +48,7 @@ re12 +
       re5 +
       "\n*👽 Today Death : *" +
       re6 +
-      "\n*😊today recovered : *" + re7,
+      "\n*😊 today recovered : *" + re7,
     parse_mode: "Markdown", on_result:"/msgid",reply_markup: { inline_keyboard: b} })
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})

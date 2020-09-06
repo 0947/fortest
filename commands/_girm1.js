@@ -11,34 +11,34 @@ CMD*/
 
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/300"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3297"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/301"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3298"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/302"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3299"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/303"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3300"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/304"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3301"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/305"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3302"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/306"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3303"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/307"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3304"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/308"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3305"})
 Api.sendDocument({
   chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/309"})
+  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/3306"})
 
 
 var b=[

@@ -13,6 +13,6 @@ let msg = User.getProperty("msgid");
 
 var b =[
 [{title:"1",command:"/capps1"},{title:"2",command:"/capps2"},{title:"3",command:"/capps3"}],
-]
+[{title:"<--",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" ከታች በገፅ ከፋፍለን አዘጋጅተናል ገጽ ይምረጡ",msg)&Bot.editInlineKeyboard(b,msg)
