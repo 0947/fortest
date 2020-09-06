@@ -31,4 +31,4 @@ var b =[
 [{title:"ኣዳልዩለይ",command:"/g7"},{title:"ከመስግነካ ይደሊ ኣለኹ",command:"/bt34"}],
 [{title:"⏭ለመመለስ",command:"/tigmez"},{title:" ↕️ዋና ገፅ", command :"/mytig"}]]
 
-Bot.editMessage("ከዚህ በማስከተል የትግርኛ መዝሙሮችን በፅሁፍ አሰናድተናል፡፡ ደመዝሙሮቹን ስም ከታች መርጠው ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage("ከዚህ በማስከተል የትግርኛ መዝሙሮችን በፅሁፍ አሰናድተናል፡፡ የመዝሙሮቹን ስም ከታች መርጠው ይጠቀሙ",msg)&Bot.editInlineKeyboard(b,msg)
