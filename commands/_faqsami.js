@@ -13,7 +13,7 @@ let msg = User.getProperty("msgid");
 
 var b =[
 [{title:"❓አጠቃቀም",command:"/fqhow"},{title:"❓በጠቅላላ",command:"/fqimg"}],[{title:"❓ስራ መቼ ጀመረ",command:"/fqwhere"},{title:"🛑ገለጻ",command:"/fqall"}],
-[{title:"✔️ቻነል",url:"t.me/catholicb"},{title:"🤳Admin Line",command:"/admin"}],
+[{title:"✔️ቻነል",url:"t.me/catholicb"},{title:"🤳Admin Line",command:"/enadmz2"}],
 [{title:"✅ተመለስ",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" ይህ የ FAQ (frequently asked questions) ክፍል ሲሆን ስለቦቱ ገለጻ ያገኙበታል፡፡",msg)&Bot.editInlineKeyboard(b,msg)

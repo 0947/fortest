@@ -22,7 +22,7 @@ var b =[
 [{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
 [{title:"🎹keyboard",command:"/kibstl"},{title:"🇻🇦ፓፓ ፍራንሲስ",command:"/popfran"}],
 [{title:"😇ፆታዊ ቅድስና",command:"/theolo"},{title:"🎧መዝሙሮች",command:"/mzmu"}],
-[{ title: "👤Comment", command: "/admin" },{title:"⁉️FAQ",command:"/faqsami"}],
+[{ title: "👤Comment", command: "/amadm" },{title:"⁉️FAQ",command:"/faqsami"}],
 [{title:"🌍ቋንቋ ቀይር / Change Language🌐",command:"/mytg"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
