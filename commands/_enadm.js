@@ -4,7 +4,13 @@
   need_reply: true
   auto_retry_time: 
   folder: 
-  answer: ✍🏽Type any text to the developer
+
+  <<ANSWER
+✅Write your message to the developer.
+•Just type what you need.
+
+✨If you want to inbox use @barklgn
+  ANSWER
   keyboard: 
   aliases: 
 CMD*/
