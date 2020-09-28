@@ -29,7 +29,7 @@ var photo =  r.countryInfo.flag
 
 if(!err){
   Api.sendPhoto({
-    photo: photo,
+    photo: "https://t.me/xexgbjnsjnjudxbjjdxSam/3531",
     caption:
      "*የኮቪድ መረጃዎች\n\n🇪🇹ሀገር : " + re10 +
       "\n\n🤧ጠቅላላ የተያዙ : *" +

@@ -18,7 +18,7 @@ var b =[
 [{title:"English",command:"/myin"},{title:"👨‍💻Developer",command:"/enadmz"},{title:"About",command:"/enfq"}],
 [{title:"⚒️Track Covid-19 Info - የኮሮና መረጃ🗑",command:"/scov"}]]
 
- th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
+var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
 if(params=="M") 
 {

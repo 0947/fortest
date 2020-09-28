@@ -17,7 +17,7 @@ var b =[
 [{title:"💵Donation / ለመደገፍ",command:"/donsam"}],
 [{title:"✅ተመለስ",command:"/mych"}]]
 
- th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
+var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
 if(params=="M") 
 {

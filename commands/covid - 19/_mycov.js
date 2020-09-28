@@ -15,7 +15,7 @@ var b =[
 [{ title: "🇪🇹ኢትዮጵያ", command: "/amharicc Et" },{title:"🌍GLOBAL",command:"/global_track"}],[{title:"🔍ሀገር ለመፈለግ / Search🔎",command:"/coval"}],
 [{title:"<--",command:"/mytg"}]]
 
- th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
+var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
 if(params=="M") 
 {

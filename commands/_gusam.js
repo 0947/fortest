@@ -19,9 +19,9 @@ var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
 if(params=="M") 
 {
-Bot.editMessage(th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ ኤነንደ ኧኸሬ ኸኀታ መዝሙር ብቻ ጫሪም፡፡ ባሁዌ ጉራጊና መዝሙር ዌም ስብከት በረፐረ ናሁኒ",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage(th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ ኤነንደ የኸሬ ኸኀታ መዝሙር ብቻ ጫሪም፡፡ ባሁዌ ጉራጊና መዝሙር ዌም ስብከት በረፐረ ናሁኒ",msg)&Bot.editInlineKeyboard(b,msg)
 }else{
-Bot.sendInlineKeyboard(b,  th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ ኤነንደ ኧኸሬ ኸኀታ መዝሙር ብቻ ጫሪም፡፡ ባሁዌ ጉራጊና መዝሙር ዌም ስብከት በረፐረ ናሁኒ፡፡",{on_result:"/msgid"})
+Bot.sendInlineKeyboard(b,  th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ ኤነንደ የኸሬ ኸኀታ መዝሙር ብቻ ጫሪም፡፡ ባሁዌ ጉራጊና መዝሙር ዌም ስብከት በረፐረ ናሁኒ፡፡",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
 }
