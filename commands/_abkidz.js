@@ -12,7 +12,7 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"〽️በፎቶ የተደገፈ ",command:"/akp"},{title:"〽️በፅሁፍ",command:"/akw"}],
-[{title:"ተመለስ",command:"/mych"}]]
+[{title:"በፎቶ የተደገፈ ",command:"/akp"},{title:"በፅሁፍ",command:"/akw"}],
+[{title:"<-- ተመለስ",command:"/mych"}]]
 
 Bot.editMessage(user.first_name+" የቅዱሳን አባባል በፅሁፍ እና በፎቶ ቀርቧል",msg)&Bot.editInlineKeyboard(b,msg)

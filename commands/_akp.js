@@ -12,6 +12,7 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"1",command:"/akp1"},{title:"2",command:"/akp2"}]]
+[{title:"1",command:"/akp1"},{title:"2",command:"/akp2"}],
+[{title:"<--",command:"/abkidz"}]]
 
 Bot.editMessage("እባክዎትን ገጽ ይምረጡ",msg)&Bot.editInlineKeyboard(b,msg)
