@@ -13,7 +13,7 @@ let msg=User.getProperty("msgid")
 
 var b =[
 [{ title: "🏠የካቶሊክ ቤተክርስቲያን ምንነት", command: "/first" }],
-[ { title: "♨️የቅ.ፋውስቲና ማስታወሻ", command: "/faustin" },{title:"⚠️COVID ፕሮግራሞች",command:"/covid"}],
+[ { title: "♨️ቅ.ፋውስቲና", command: "/faustin" },{title:"⚠️COVID ፕሮግራሞች",command:"/covid"}],
 [{title:"📜የቅዱሳን ታሪክ",command:"/kidus"},{title:"🙀የቮካል ስልጠና",command:"/vocal"}],
 [{title:"💒ስብከቶች",command:"/thalk"},{title:"🔅ግዕዝ ዜማ",command:"/geezs"}],
 [{title:"✝ጸሎት",command:"/xelo"},{title:"🎬ሲኒማ",command:"/catcin"}],
