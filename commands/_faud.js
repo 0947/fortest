@@ -11,6 +11,10 @@ CMD*/
 
 let msg=User.getProperty("msgid")
 
+Api.sendDocument({
+  chat_id: chat.chatid,
+  document: "https://t.me/xexgbjnsjnjudxbjjdxsam/3878))",caption:  "Amharic Divine mercy / የመለኮታዊ ምሕረት መቁጠሪያ ጸሎት/ አዘጋጅ እና አስተባባሪ  ገነት ግርማ\nሙሉ ጸሎቱ በግሪጎርያን ቻንት ዜማ የቀረበ 😱❤"})
+
 var b = [[{ text: "ተመለስ", callback_data: "/faustin"}]]
 
 Api.sendDocument({
