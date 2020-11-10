@@ -12,7 +12,7 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b=[
-[{title:"🆕ዘ.ባንታየሁ",command:"/banti"},{title:"🆕ጺዮን ማርያም", command :"/xionew"}],
+[{title:"ዘ.ባንታየሁ",command:"/banti"},{title:"ክርስትና", command :"/xionew"}],
 [{title:"ዘ.ወንዱ አታሮ",command:"/watar"},{title:"ዘ.ቢኒያም አ.ወርቅ", command :"/bini"}],
 [{title:"ዘ.አሸናፊ ደበላ",command:"/ashd"},{title:"አባ ዳዊት", command :"/dava"}],
 [{title:"ቦንጋ ኪ.ም",command:"/bongkid"},{title:"ድሬዳዋ ቅ.አጎስጢን", command :"/dragu"}],
