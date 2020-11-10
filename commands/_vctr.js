@@ -18,7 +18,7 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxsam/2983",caption:  "🎤 Jacobs Vocal Acadamy \n🎵 Vocal Wormup     \n       ¤ Type: Vocal Wormup"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/vocal"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,
