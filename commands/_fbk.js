@@ -14,6 +14,7 @@ let msg = User.getProperty("msgid");
 var b =[
 [{title:"የመለኮታዊ ምህረት ጸሎት",command:"/faux"}],
 [{title:"የፋውስቲና ማስታወሻ",command:"/faup"}],
-[{title:"<-- ተመለስ",command:"/faustin"}]]
+[{title:"ታሪክ",command:"/faut"}],
+[{title:"<--",command:"/faustin"}]]
 
 Bot.editMessage("ከዚህበታች መፅሀፍት በPDF ተቀምጠዋል የመፅሀፉን ርዕስ ይምረጡ",msg)&Bot.editInlineKeyboard(b,msg)
