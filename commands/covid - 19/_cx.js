@@ -14,6 +14,10 @@ var b = [[{ text: "⬅️ተመለስ", callback_data: "/mycov"}]]
 let msg = User.getProperty("msgid");
 let r = JSON.parse(content)
 let err =r.message
+if(err){
+Bot.sendMessage("😟sorry error occurred on bot API\n•please talk with the developer on this issue @barklgn")
+return
+}
 let re8=r.active
 let re1=r.cases
 let re4=r.deaths
