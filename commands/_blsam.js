@@ -13,6 +13,7 @@ let msg=User.getProperty("msgid")
 
 var b =[
 [{title:"🎧የ ዶሩቕ መዝሙሮች🎧",command:"/blsong"}],
+[{title:"🎧ተጨማሪ መዝሙር",command:"/blmore"}],
 [{title:"🌍ቋንቋ ለመቀየር🌍",command:"/mytg"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
