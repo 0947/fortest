@@ -47,9 +47,6 @@ Api.sendDocument({
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/853"})
-Api.sendDocument({
-  chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/853"})
 
 var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
 
