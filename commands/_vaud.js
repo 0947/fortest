@@ -15,7 +15,7 @@ var b =[
 [{title:"ባቲ major",command:"/bmaj"},{title:"አንቺ ሆዬ",command:"/anch"}],
 [{title:"Harmony",command:"/harmo"},{title:"ድምፀት",command:"/demx"}],
 [{title:"የድምፅ ቲምበር",command:"/timber"},{title:"ክሮማቲክ ቅኝት",command:"/crom"}],
-[{title:"አምባሰል",command:"/ambas"},{title:"የምምፅ ቴክኒኮች",command:"/vtec"}],
+[{title:"አምባሰል",command:"/ambas"},{title:"የድምፅ ቴክኒኮች",command:"/vtec"}],
 [{title:"ትዝታ Minor",command:"/tmin"}],
 [{title:"⏮ለመመለስ",command:"/vocal"},{title:"🔼ዋና ገጽ",command:"/mych"}]]
 
