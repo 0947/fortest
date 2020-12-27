@@ -15,8 +15,7 @@ var b =[
 [{ title: "አማርኛ", command: "/mych" },{title:"ትግርኛ",command:"/mytig"},{title:"ወላይትኛ",command:"/mywl"}],
 [{title:"ሳሆኛ",command:"/mysh"},{title:"Oromifaa",command:"/myor"},{title:"ሀድይኛ",command:"/hymy"}],
 [{title:"ጉራጊኛ",command:"/gumy"},{title:"ብሌንኛ",command:"/mybl"},{title:"ኩናምኛ",command:"/myku"}],
-[{title:"English",command:"/myin"},{title:"👨‍💻Developer",command:"/enadmz"},{title:"About",command:"/enfq"}],
-[{title:"⚒️Track Covid-19 Info - የኮሮና መረጃ🗑",command:"/scov"}]]
+[{title:"English",command:"/myin"},{title:"👨‍💻Developer",command:"/enadmz"},{title:"About",command:"/enfq"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
