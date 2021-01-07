@@ -18,6 +18,7 @@ var b =[
 [{title:"💒ስብከቶች",command:"/thalk"},{title:"🔅ግዕዝ ዜማ",command:"/geezs"}],
 [{title:"✝ጸሎት",command:"/xelo"},{title:"🎬ሲኒማ",command:"/catcin"}],
 [{title:"📚PDF መፅሀፍት",command:"/cpdf"},{title:"📡የቫቲካን ራዲዮ",command:"/cvati"}],
+[{title:"❓ጥያቄና መልስ✅",command:"/qans"}],
 [{title:"🛡Application",command:"/capps"},{title:"🕎የቅዳሴ ስርአት",command:"/kidse"}],
 [{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
 [{title:"🎹keyboard",command:"/kibstl"},{title:"🇻🇦ፓፓ ፍራንሲስ",command:"/popfran"}],

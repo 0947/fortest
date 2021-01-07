@@ -12,6 +12,7 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
+[{title:"👁recently viewed",command:"/resvid"}],
 [{title:"1",command:"/mzvi1"},{title:"2",command:"/mzvi2"}],[{title:"3",command:"/mzvi3"},{title:"4",command:"/mzvi4"}],
 [{title:"✅ተመለስ",command:"/mzmu"}]]
 

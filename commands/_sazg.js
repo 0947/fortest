@@ -11,5 +11,5 @@ CMD*/
 
 let id = User.getProperty("replyid");
 
-Bot.sendMessageToChatWithId(id, "📩*Reply From ADMIN* \n\n"+data.message);
+Bot.sendMessageToChatWithId(id, "🆕️*New Message From ADMIN* \n\n"+data.message);
 Bot.sendMessage(" Reply Sent");

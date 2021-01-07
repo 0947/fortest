@@ -67,3 +67,7 @@ Bot.sendInlineKeyboard(
   [
   { title: "✅ዋና ገጽ", command: "/start"}], 
 "*😊ውድ*  "+ user.first_name+"\n*❗️ወደ ሰርቨራችን ያስገቡት መረጃ*\n\n🎭Sticker\n\n⚠️*እባክዎትን በተኖችን ብቻ ይጠቀሙ፡፡ ወደ ዋና ገጽ ለመሄድ ከታች ያለውን በተን ይጠቀሙ*\n\n"+user.first_name+"  🚫Unknown Command inserted please use inline buttons only",{on_result:"/msgid"})}
+
+
+
+

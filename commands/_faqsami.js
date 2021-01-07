@@ -15,7 +15,7 @@ var b =[
 [{title:"❓አጠቃቀም",command:"/fqhow"},{title:"❓በጠቅላላ",command:"/fqimg"}],[{title:"❓ስራ መቼ ጀመረ",command:"/fqwhere"},{title:"🛑ገለጻ",command:"/fqall"}],
 [{title:"✔️ቻነል",url:"t.me/catholicb"},{title:"🤳Admin Line",command:"/enadmz2"}],
 [{title:"💵Donation / ለመደገፍ",command:"/donsam"}],
-[{title:"✅ተመለስ",command:"/mych"}]]
+[{title:"⬅️",command:"/mych"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
 
