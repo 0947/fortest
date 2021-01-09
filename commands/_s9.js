@@ -10,7 +10,7 @@
 CMD*/
 
 var b =[
-[{ title: "1054", command: "/s10 an" }],[{ title: "1521", command: "/s10 a" }],[{title:"1533",command:"/s10 n"}],[{title:"⬅️",command:"/qans dl"}]]
+[{ title: "451", command: "/s10 an" }],[{ title: "1521", command: "/s10 a" }],[{title:"1533",command:"/s10 n"}],[{title:"⬅️",command:"/qans dl"}]]
 
 if(request.data){
 var msg = request.message.message_id

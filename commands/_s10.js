@@ -27,7 +27,7 @@ Api.answerCallbackQuery({
 }else{
 Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"❌መልሱ 1054 ነው",
+  text:"❌መልሱ 451 ነው",
   show_alert: true
 })
 }
