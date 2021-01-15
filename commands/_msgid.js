@@ -9,5 +9,6 @@
   aliases: 
 CMD*/
 
+if(!options){ return }
 let msg_id = options.result.message_id;
 User.setProperty("msgid" , msg_id,  "integer");
