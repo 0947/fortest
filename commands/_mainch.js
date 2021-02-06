@@ -28,3 +28,4 @@ Bot.runCommand("/mainz")
 Bot.setProperty("status", user, "text")
 
 
+
