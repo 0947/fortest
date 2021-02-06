@@ -15,4 +15,4 @@ var b =[
 [{title:"ተመለስ",command:"/popaba"}]
 ]
 
-Bot.editMessage("ኢየሱስ ጸሎት መጸለይ እንዲይስተምረን መጠየቅ ይኖርብናል”\n\n#ፓፓ ፍራንሲስ",msg)&Bot.editInlineKeyboard(b,msg)
+Bot.editMessage("ኢየሱስ ጸሎት መጸለይ እንዲያስተምረን መጠየቅ ይኖርብናል\n\n#ፓፓ ፍራንሲስ",msg)&Bot.editInlineKeyboard(b,msg)
