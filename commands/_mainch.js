@@ -21,7 +21,7 @@ Bot.runCommand("/mainz")
 } else {
   Api.answerCallbackQuery({
   callback_query_id: request.id,
-  text:"🔕ይቅርታ ቻነሉን አልተቀላቀሉም\n🚫ቻነላችንን ካልተቀላቀሉ ቦቱ አይሰራም፡፡ ",
+  text:"❌ይቅርታ የሰርቨራችንን ቻነል ተቀላቅለው ከእንደገና ይሞክሩ፡፡ ቻነላችንን ላልተቀላቀሉ የቦታችን ተጠቃሚዎች ምንም አይነት አገልግሎት ማግኘት የማይችሉ መሆኑን እንገልፃለን፡፡",
   show_alert: "true"
 })}
 
