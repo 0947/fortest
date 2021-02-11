@@ -14,7 +14,7 @@ let msg=User.getProperty("msgid")
 var b = [[{title:"👤የቅ.ፋውስቲና ፎቶ",command:"/fauph"}],
 [{ title: "መፅሀፍት", command: "/fbk"},{title:"በድምጽ",command:"/faud"}],
 [{ title: "ቪዲዮ", command: "/fvid"},{title:"ፎቶዎች", command:"/fpho"}],
-[{title:"ጸሎት", command:"/fxl"}],
+[{title:"ጸሎት", command:"/fxl"},{title:"መዝሙር",command:"/mzfaust"}],
 [{title:"<--",command:"/mych"}]]
 
 var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"

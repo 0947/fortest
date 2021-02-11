@@ -14,7 +14,7 @@ CMD*/
 
 let msg=User.getProperty("msgid")
 
-var b = [[{ text: "⬆️ዋና ገፅ", callback_data: "/mych"}]]
+var b = [[{ text: "GO BACK", callback_data: "/first"}]]
 
  Api.sendVideo({
   chat_id: chat.chatid,
