@@ -12,7 +12,8 @@ CMD*/
 let msg = User.getProperty("msgid");
 
 var b =[
-[{title:"1",command:"/kib1"},{title:"2",command:"/kib2"},{title:"3",command:"/kib3"}],
+[{title:"1",command:"/kib1"},{title:"2",command:"/kib2"},{title:"3",command:"/kib3"},
+{title:"4",command:"/kib4"}],
 [{title:"✅ለመመለስ",command:"/mych"}]
 ]
 
