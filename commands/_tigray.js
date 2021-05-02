@@ -9,6 +9,16 @@
   aliases: 
 CMD*/
 
+if(!params){
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
+
+Bot.run({command: "/tigray aa", run_after:0.2
+})
+
+}else{
+
 let msg=User.getProperty("msgid")
 
 var b =[
@@ -27,4 +37,6 @@ Bot.editMessage(th+"  እንኳን ወደዚህ ቦት በደህና መጡ፡፡
 Bot.sendInlineKeyboard(b,  th+" እንኳን ወደዚህ ቦት በደህና መጡ፡፡ በዚህ በተን በትግርኛ ቋንቋ ብዙ መረጃ ማግኘት ይችላሉ፡፡ ከታች ያለውን button ይጠቀሙ",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
+
 }

@@ -1,5 +1,5 @@
 /*CMD
-  command: /myme
+  command: /myam
   help: 
   need_reply: 
   auto_retry_time: 
@@ -9,6 +9,16 @@
   aliases: 
 CMD*/
 
+if(!params){
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
+
+Bot.run({command: "/myam aa", run_after:0.2
+})
+
+}else{
+
 let msg=User.getProperty("msgid")
 
 var b =[
@@ -17,7 +27,7 @@ var b =[
 [{title:"📜የቅዱሳን ታሪክ",command:"/kidus"},{title:"🙀የቮካል ስልጠና",command:"/vocal"}],
 [{title:"💒ስብከቶች",command:"/thalk"},{title:"🔅ግዕዝ ዜማ",command:"/geezs"}],
 [{title:"✝ጸሎት",command:"/xelo"},{title:"🎬ሲኒማ",command:"/catcin"}],
-[{title:"📚PDF መፅሀፍት",command:"/cpdf"},{title:"📡የቫቲካን ራዲዮ",command:"/cvati"}],
+[{title:"📚PDF መፅሀፍት",command:"/cpdf"},{title:"🗝ልዩ ማህደር",command:"/amlyu"}],
 [{title:"❓ጥያቄና መልስ✅",command:"/qans"}],
 [{title:"🛡Application",command:"/capps"},{title:"🕎የቅዳሴ ስርአት",command:"/kidse"}],
 [{title:"🎬ቪዲዮ",command:"/cvids"},{title:"✴️የቅዱሳን አባባል",command:"/abkidz"}],
@@ -35,4 +45,6 @@ Bot.editMessage(th+"  እንኳን ወደዚህ ቦት በደህና መጡ፡፡
 Bot.sendInlineKeyboard(b,  th+" እንኳን ወደዚህ ቦት በደህና መጡ፡፡ በዚህ ቦት ብዙ መረጃ ማግኘት ይችላሉ፡፡ ከታች ያለውን button ይጠቀሙ",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
+
 }

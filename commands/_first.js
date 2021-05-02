@@ -20,7 +20,7 @@ var b =[
 ,[{ title: "ር.ሊ.ጳጳሳት እንዴት ነው የሚመረጡት?", command: "/cardinal" }],
     [{ title: "አብያተ ክርስቲያናት ከካቶሊክ መቼ ተለዩ", command: "/split"}],
 [{title:"VIDEO",command:"/hayal"},{title:"AUDIO",command:"/firstaud"},{title:"PDF",command:"/pdac"}],
-[{title:"↩️ወደመጡበት ለመመለስ↩️",command:"/mych"}]]
+[{title:"⬅️",command:"/mych"}]]
 
 
 var th=""+user.first_name+""

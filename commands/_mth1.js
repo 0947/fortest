@@ -45,9 +45,7 @@ Api.sendDocument({
 Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/5184"})
-Api.sendDocument({
-  chat_id: chat.chatid,
-  document: "https://t.me/xexgbjnsjnjudxbjjdxSam/5185"})
+
 
 var b=[
 [{title:" ተመለስ ", command :"/mych"}]]

@@ -18,7 +18,7 @@ Api.sendVideo({
   chat_id: chat.chatid,
   video: "https://t.me/xexgbjnsjnjudxbjjdxSam/700",caption:  "@catholicb"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/amlyu"}]]
 
 Api.sendVideo({
   chat_id: chat.chatid,

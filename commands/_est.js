@@ -15,7 +15,7 @@ Api.sendDocument({
   chat_id: chat.chatid,
   document: "https://t.me/xexgbjnsjnjudxbjjdxSam/4580",caption:  "✨የቅዱስ ቁርባን ትምህርት"})
 
-var b = [[{ text: "ተመለስ", callback_data: "/mych"}]]
+var b = [[{ text: "ተመለስ", callback_data: "/thalk"}]]
 
 Api.sendDocument({
   chat_id: chat.chatid,

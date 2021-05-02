@@ -9,12 +9,21 @@
   aliases: 
 CMD*/
 
-let msg = User.getProperty("msgid");
+let msg=User.getProperty("msgid")
 
 var b =[
-[{title:"1",command:"/kib1"},{title:"2",command:"/kib2"},{title:"3",command:"/kib3"},
-{title:"4",command:"/kib4"}],
+[{title:"የኪቦርድ ልምምድ",command:"/kiblm"}],
+[{title:"የኪቦርድ ስታይሎች",command:"/kibstl2"}],
 [{title:"✅ለመመለስ",command:"/mych"}]
 ]
 
-Bot.editMessage(user.first_name+" ከዚህ በታች የኪቦርድ style በገፅ ተከፋፍለው ተቀምጠዋል",msg)&Bot.editInlineKeyboard(b,msg)
+var th="["+user.first_name+"]("+"tg://user?id="+user.telegramid+")"
+
+if(params=="M") 
+{
+Bot.editMessage(th+"  ይህ የኩናምኛ ገጽ ነው ካለን የመረጃ እጥረት ምክንያት መዝሙሮች ብቻ ጭነናል፡፡ ምናልባት እርስዎ ጋር ተጨማሪ መረጃ ካለ ያናግሩን፡፡",msg)&Bot.editInlineKeyboard(b,msg)
+}else{
+Bot.sendInlineKeyboard(b,  th+"  ከታች ያሉትን አዝራሮች(buttons) በመጠቀም አገልግሎቱን ያስቀጥሉ፡፡",{on_result:"/msgid"})
+
+Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}

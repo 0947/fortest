@@ -9,6 +9,16 @@
   aliases: 
 CMD*/
 
+if(!params){
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
+
+Bot.run({command: "/gusam aa", run_after:0.2
+})
+
+}else{
+
 let msg=User.getProperty("msgid")
 
 var b =[
@@ -24,4 +34,6 @@ Bot.editMessage(th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ
 Bot.sendInlineKeyboard(b,  th+"  ዛታ የጉራጊና ክፍሉ፡፡ ንቃር መረጃ ኤነንደ የኸሬ ኸኀታ መዝሙር ብቻ ጫሪም፡፡ ባሁዌ ጉራጊና መዝሙር ዌም ስብከት በረፐረ ናሁኒ፡፡",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
+
 }

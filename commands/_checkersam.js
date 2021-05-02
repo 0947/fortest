@@ -12,12 +12,9 @@ CMD*/
 let user = options.result.status
 
 if (user == "member" || user == "creator") {
-  Api.answerCallbackQuery({
-  callback_query_id: request.id,
-  text:"Downloading data from the server...",
-  show_alert: " top" })
   
-Bot.runCommand("/myme")
+  
+Bot.runCommand("/myam")
 } else {
   Api.answerCallbackQuery({
   callback_query_id: request.id,

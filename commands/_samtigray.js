@@ -12,10 +12,6 @@ CMD*/
 let user = options.result.status
 
 if (user == "member" || user == "creator") {
-  Api.answerCallbackQuery({
-  callback_query_id: request.id,
-  text:"🛡Loading Now...",
-  show_alert: " top" })
   
 Bot.runCommand("/tigray")
 } else {

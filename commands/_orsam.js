@@ -9,6 +9,16 @@
   aliases: 
 CMD*/
 
+if(!params){
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
+
+Bot.run({command: "/orsam aa", run_after:0.2
+})
+
+}else{
+
 let msg=User.getProperty("msgid")
 
 var b =[
@@ -24,4 +34,6 @@ Bot.editMessage(th+"  Kuni fuula Afaan Oromooti, Odeefannoo Afaan Oromootin qoph
 Bot.sendInlineKeyboard(b,  th+"  Kuni fuula Afaan Oromooti, Odeefannoo Afaan Oromootin qopheesineera fayyadama.",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
+
 }

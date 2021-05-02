@@ -9,6 +9,16 @@
   aliases: 
 CMD*/
 
+if(!params){
+Api.sendChatAction({
+chat_id:chat.chatid,
+action:"typing"})
+
+Bot.run({command: "/wlso aa", run_after:0.2
+})
+
+}else{
+
 let msg=User.getProperty("msgid")
 
 var b =[
@@ -24,4 +34,6 @@ Bot.editMessage(th+"  ይህ የወላይትኛ ገጽ ነው፡፡ ባለን �
 Bot.sendInlineKeyboard(b,  th+"  ይህ የወላይትኛ ገጽ ነው፡፡ ባለን የመረጃ እጥረት ምክንያት መዝሙሮች ብቻ ጭነናል፡፡ ተጨማሪ መረጃ ካለዎት ያናግሩን፡፡",{on_result:"/msgid"})
 
 Api.deleteMessage({chat_id:chat.chatid,message_id:msg})
+}
+
 }

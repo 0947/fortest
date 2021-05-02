@@ -13,6 +13,7 @@ let msg = User.getProperty("msgid");
 
 var b =[
 [{title:"በሰማይ የምትኖር",command:"/xescy"},{title:"ፀጋን የሞላሽ",command:"/xemol"}],
+[{title:"የጥሪ ጸሎት",command:"/trix"}],
 [{title:"የተስፋ ስራ",command:"/xetesf"},{title:"የሀይማኖት ስራ",command:"/haymi"}],[{title:"ወደ ቅድስት ቤተሰብ",command:"/kidfa"},{title:"የንሰሀ ስራ",command:"/nisha"}],
 [{title:"የፍቅር ስራ",command:"/fklsr"}],
 [{title:"ጸሎት ወደ አብ",command:"/xlab"},{title:"እንጸልይ",command:"/enxl"}],
